@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bb8024b-e093-449b-b6f4-d9e367da03d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExchangeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exchange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExchangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExchangeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -43,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ExchangeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="528">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,8 +54,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="44">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding>
+                <element signature="e#102#103#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,12 +71,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Exchange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+            <state relative-caret-position="110">
+              <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
               <folding>
-                <element signature="e#148#149#0" expanded="true" />
                 <element signature="e#174#175#0" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,8 +115,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ExampleTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/Exchange.java" />
         <option value="$PROJECT_DIR$/src/test/java/ExchangeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exchange.java" />
         <option value="$PROJECT_DIR$/src/main/java/Order.java" />
       </list>
     </option>
@@ -190,27 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ExchangeTest.exchange_displays_one_order">
-    <configuration name="ExampleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ExampleTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.ExchangeTest">
     <configuration name="ExampleTest.addition_isCorrect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -237,6 +225,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;ExampleTest.returns_first_element_from_list&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExchangeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ExchangeTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -293,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ExchangeTest" />
         <item itemvalue="Gradle.ExchangeTest.exchange_displays_one_order" />
         <item itemvalue="Gradle.ExchangeTest.exchange_displays_message_for_when_there_are_no_orders" />
         <item itemvalue="Gradle.ExampleTest.returns_first_element_from_list" />
         <item itemvalue="Gradle.ExampleTest.addition_isCorrect" />
-        <item itemvalue="Gradle.ExampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -322,35 +330,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExampleTest - 2020.01.22 at 13h 23m 23s.xml">
-      <configuration name="ExampleTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ExampleTest_true_is_true - 2020.01.22 at 13h 43m 44s.xml">
-      <configuration name="ExampleTest.true_is_true" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ExampleTest - 2020.01.22 at 13h 44m 55s.xml">
-      <configuration name="ExampleTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ExampleTest - 2020.01.22 at 15h 13m 16s.xml">
-      <configuration name="ExampleTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ExampleTest_addition_isCorrect - 2020.01.22 at 15h 13m 26s.xml">
-      <configuration name="ExampleTest.addition_isCorrect" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ExampleTest_returns_first_element_from_list - 2020.01.22 at 15h 36m 23s.xml">
-      <configuration name="ExampleTest.returns_first_element_from_list" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ExchangeTest_exchange_displays_message_for_when_there_are_no_orders - 2020.01.23 at 22h 21m 55s.xml">
-      <configuration name="ExchangeTest.exchange_displays_message_for_when_there_are_no_orders" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ExchangeTest_exchange_displays_message_for_when_there_are_no_orders - 2020.01.23 at 22h 27m 36s.xml">
-      <configuration name="ExchangeTest.exchange_displays_message_for_when_there_are_no_orders" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ExchangeTest_exchange_displays_message_for_when_there_are_no_orders - 2020.01.23 at 22h 28m 25s.xml">
-      <configuration name="ExchangeTest.exchange_displays_message_for_when_there_are_no_orders" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="ExchangeTest_exchange_displays_one_order - 2020.01.23 at 22h 53m 58s.xml">
       <configuration name="ExchangeTest.exchange_displays_one_order" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExchangeTest_exchange_displays_one_order - 2020.01.23 at 22h 57m 50s.xml">
+      <configuration name="ExchangeTest.exchange_displays_one_order" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExchangeTest_exchange_displays_one_order - 2020.01.23 at 22h 59m 40s.xml">
+      <configuration name="ExchangeTest.exchange_displays_one_order" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExchangeTest_exchange_displays_one_order - 2020.01.23 at 23h 10m 52s.xml">
+      <configuration name="ExchangeTest.exchange_displays_one_order" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExchangeTest_exchange_displays_one_order - 2020.01.23 at 23h 14m 07s.xml">
+      <configuration name="ExchangeTest.exchange_displays_one_order" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExchangeTest - 2020.01.23 at 23h 16m 48s.xml">
+      <configuration name="ExchangeTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExchangeTest - 2020.01.23 at 23h 18m 10s.xml">
+      <configuration name="ExchangeTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExchangeTest_exchange_displays_one_order - 2020.01.23 at 23h 22m 11s.xml">
+      <configuration name="ExchangeTest.exchange_displays_one_order" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExchangeTest_exchange_displays_one_order - 2020.01.23 at 23h 22m 52s.xml">
+      <configuration name="ExchangeTest.exchange_displays_one_order" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExchangeTest - 2020.01.23 at 23h 23m 26s.xml">
+      <configuration name="ExchangeTest" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -416,29 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ExampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exchange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -454,20 +439,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ExampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ExchangeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="528">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="44">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
