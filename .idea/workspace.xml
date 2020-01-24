@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bb8024b-e093-449b-b6f4-d9e367da03d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExchangeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,12 +28,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="310">
-                <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+              <first_editor relative-caret-position="403">
+                <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -38,32 +41,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ExampleTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ExchangeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            <state relative-caret-position="307">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Exchange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+              <folding>
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ExampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="46" />
+            <state relative-caret-position="376">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,19 +107,15 @@
         <option value="$PROJECT_DIR$/src/test/java/ExampleTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Exchange.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ExchangeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Order.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="325" />
-    <option name="y" value="151" />
+    <option name="x" value="289" />
+    <option name="y" value="23" />
     <option name="width" value="1334" />
     <option name="height" value="920" />
   </component>
@@ -117,11 +133,6 @@
             <path>
               <item name="GameMarketplace" type="b2602c69:ProjectViewProjectNode" />
               <item name="GameMarketplace" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="GameMarketplace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GameMarketplace" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GameMarketplace" type="b2602c69:ProjectViewProjectNode" />
@@ -162,6 +173,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.gradle.running" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -174,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ExampleTest.returns_first_element_from_list">
+  <component name="RunManager" selected="Gradle.ExchangeTest.exchange_displays_one_order">
     <configuration name="ExampleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -235,12 +251,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ExampleTest.true_is_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ExchangeTest.exchange_displays_message_for_when_there_are_no_orders" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ExampleTest.true_is_true&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ExchangeTest.exchange_displays_message_for_when_there_are_no_orders&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -255,12 +271,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'GameMarketplace.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ExchangeTest.exchange_displays_one_order" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests *" />
+        <option name="scriptParameters" value="--tests &quot;ExchangeTest.exchange_displays_one_order&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -277,11 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ExchangeTest.exchange_displays_one_order" />
+        <item itemvalue="Gradle.ExchangeTest.exchange_displays_message_for_when_there_are_no_orders" />
         <item itemvalue="Gradle.ExampleTest.returns_first_element_from_list" />
         <item itemvalue="Gradle.ExampleTest.addition_isCorrect" />
         <item itemvalue="Gradle.ExampleTest" />
-        <item itemvalue="Gradle.ExampleTest.true_is_true" />
-        <item itemvalue="Gradle.Tests in 'GameMarketplace.test'" />
       </list>
     </recent_temporary>
   </component>
@@ -306,18 +322,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExampleTest_true_is_true - 2020.01.22 at 13h 10m 35s.xml">
-      <configuration name="ExampleTest.true_is_true" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ExampleTest_true_is_true - 2020.01.22 at 13h 11m 00s.xml">
-      <configuration name="ExampleTest.true_is_true" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ExampleTest_true_is_true - 2020.01.22 at 13h 15m 17s.xml">
-      <configuration name="ExampleTest.true_is_true" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Tests_in_'GameMarketplace_test' - 2020.01.22 at 13h 20m 11s.xml">
-      <configuration name="Tests in 'GameMarketplace.test'" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="ExampleTest - 2020.01.22 at 13h 23m 23s.xml">
       <configuration name="ExampleTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -336,12 +340,24 @@
     <history-entry file="ExampleTest_returns_first_element_from_list - 2020.01.22 at 15h 36m 23s.xml">
       <configuration name="ExampleTest.returns_first_element_from_list" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="ExchangeTest_exchange_displays_message_for_when_there_are_no_orders - 2020.01.23 at 22h 21m 55s.xml">
+      <configuration name="ExchangeTest.exchange_displays_message_for_when_there_are_no_orders" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExchangeTest_exchange_displays_message_for_when_there_are_no_orders - 2020.01.23 at 22h 27m 36s.xml">
+      <configuration name="ExchangeTest.exchange_displays_message_for_when_there_are_no_orders" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExchangeTest_exchange_displays_message_for_when_there_are_no_orders - 2020.01.23 at 22h 28m 25s.xml">
+      <configuration name="ExchangeTest.exchange_displays_message_for_when_there_are_no_orders" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExchangeTest_exchange_displays_one_order - 2020.01.23 at 22h 53m 58s.xml">
+      <configuration name="ExchangeTest.exchange_displays_one_order" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="325" y="151" width="1334" height="920" extended-state="0" />
+    <frame x="289" y="23" width="1334" height="920" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.023219815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23529412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -350,12 +366,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32971016" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32971016" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32971016" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32971016" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32971016" />
@@ -386,17 +402,24 @@
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="329">
           <caret line="15" column="46" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ExampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="376">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#250#251#0" expanded="true" />
@@ -404,10 +427,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exchange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="66">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -419,10 +447,27 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="310">
-            <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <first_editor relative-caret-position="403">
+            <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ExchangeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
