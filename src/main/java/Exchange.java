@@ -4,8 +4,12 @@ public class Exchange {
     private ArrayList<Order> orders = new ArrayList<>();
 
     public String display(ArrayList<Order> orders) {
+        String result = "";
         if (orders.size() > 0) {
-            return "ID: " + orders.get(0).getId() + " Price: " + orders.get(0).getPrice();
+            for (Order order : orders) {
+                result += "ID: " + order.getId() + " Price: " + order.getPrice() + "\n";
+            }
+            return result;
         }
         return "There are no orders";
     }
