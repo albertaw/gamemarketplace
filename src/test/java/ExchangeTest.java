@@ -32,15 +32,14 @@ public class ExchangeTest {
     @Test
     public void exchange_displays_multiple_orders() {
         Exchange exchange = new Exchange();
-        ArrayList<Order> mockOrders =  new ArrayList<>();
-        mockOrders.add(new Order("1234", "$10.00"));
-        mockOrders.add(new Order("5678", "$15.00"));
-        exchange.setOrders(mockOrders);
-        ArrayList<Order> orders = exchange.getOrders();
+        Order order1 = new Order("1234", "$10.00");
+        Order order2 = new Order("5678", "$15.00");
 
-        String actual = exchange.display(orders);
+        exchange.add(order1);
+        exchange.add(order2);
+
+        String actual = exchange.display(exchange.getOrders());
         String expected = "ID: 1234 Price: $10.00\nID: 5678 Price: $15.00\n";
-
         assertEquals(expected, actual);
     }
 }
