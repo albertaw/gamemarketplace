@@ -21,4 +21,8 @@ public class Exchange {
     public void setOrders(ArrayList<Order> orders) {
         this.orders = orders;
     }
+
+    public void add(Order order) {
+        orders.add(order);
+    }
 }
