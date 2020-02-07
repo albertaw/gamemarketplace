@@ -20,7 +20,7 @@ Solution
 **Actors:**
 1. Player (Seller or Buyer)
 2. Game 
-3. Exchange
+3. Marketplace
 
 **Things**
 1. Assets (game inventory, game currency, cash)
@@ -33,4 +33,5 @@ Solution
 3. Purchase item
 1. Trade item
 4. Remove order
+
 

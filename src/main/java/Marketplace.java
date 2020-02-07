@@ -1,7 +1,8 @@
 import java.util.ArrayList;
+import java.util.BitSet;
 
-public class Exchange {
-    private ArrayList<Order> orders = new ArrayList<>();
+public class Marketplace {
+    private ArrayList<Offer> offers = new ArrayList<>();
 
     public String display(ArrayList<Order> orders) {
         String result = "";
@@ -14,15 +15,13 @@ public class Exchange {
         return "There are no orders";
     }
 
-    public ArrayList<Order> getOrders() {
-        return orders;
+    public ArrayList<Offer> getOffers() {
+        return offers;
     }
 
-    public void setOrders(ArrayList<Order> orders) {
-        this.orders = orders;
-    }
-
-    public void add(Order order) {
-        orders.add(order);
+    public Offer add(User user, int numberOfCoins) {
+        Offer offer = new Offer();
+        this.offers.add(offer);
+        return offer;
     }
 }
